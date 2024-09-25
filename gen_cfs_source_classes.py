@@ -39,6 +39,7 @@ class SonarrSourceEnum(Enum):
     BLURAY_RAW = 7  # Remux
 
 
+# https://github.com/Sonarr/Sonarr/blob/develop/src/NzbDrone.Core/Qualities/Quality.cs
 sonarr_source_classes_to_generate = [
     {
         "source_class": SonarrSourceEnum.BLURAY_RAW,
@@ -194,6 +195,7 @@ sonarr_source_classes_to_generate = [
     },
 ]
 
+# https://github.com/Radarr/Radarr/blob/be2e1e4fdb08ead3424ee24b191c988241a8b7b6/src/NzbDrone.Core/Qualities/Quality.cs#L93
 radarr_source_classes_to_generate = [
     {
         "source_class": RadarrSourceEnum.BLURAY,
