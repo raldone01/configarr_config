@@ -504,6 +504,11 @@ if __name__ == "__main__":
         resolution = source_class.get("resolution")
         custom_format_score = source_class["custom_format_score"]
         source_class_enum = source_class["source_class"].name
+
+        # if unknown skip
+        if source_class_enum == SonarrSourceEnum.UNKNOWN.name:
+            continue
+
         class_enum_value = source_class["source_class"].value
         arr_type = "Sonarr"
         arr_type_lower = arr_type.lower()
@@ -545,6 +550,11 @@ if __name__ == "__main__":
         resolution = source_class.get("resolution")
         custom_format_score = source_class["custom_format_score"]
         source_class_enum = source_class["source_class"].name
+
+        # if unknown skip
+        if source_class_enum == RadarrSourceEnum.UNKNOWN.name:
+            continue
+
         class_enum_value = source_class["source_class"].value
         arr_type = "Radarr"
         arr_type_lower = arr_type.lower()

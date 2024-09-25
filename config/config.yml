@@ -141,7 +141,6 @@ sonarr:
           - custom-sonarr-source-class-hdtv-720p
           - custom-sonarr-source-class-sdtv-576p
           - custom-sonarr-source-class-sdtv-480p
-          - custom-sonarr-source-class-unknown
         quality_profiles: # once configarr fix is in rename to assign_scores_to
           - name: Remux-2160p - Anime
       - trash_ids: &sonarr-source-class-bluray-1080p
@@ -163,7 +162,6 @@ sonarr:
           - custom-sonarr-source-class-hdtv-720p
           - custom-sonarr-source-class-sdtv-576p
           - custom-sonarr-source-class-sdtv-480p
-          - custom-sonarr-source-class-unknown
         quality_profiles: # once configarr fix is in rename to assign_scores_to
           - name: 1080p - Anime
       # END QUALITY UPGRADES via CUSTOM FORMATS
