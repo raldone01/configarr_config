@@ -15,15 +15,6 @@
       "fields": {
         "value": 3
       }
-    },
-    {
-      "name": "NONE",
-      "implementation": "QualityModifierSpecification",
-      "negate": false,
-      "required": true,
-      "fields": {
-        "value": 0
-      }
     }
   ]
 }

@@ -405,6 +405,7 @@ radarr_source_classes_to_generate = [
         "source_class": RadarrSourceEnum.UNKNOWN,
         "full_class_name": "unknown",
         "full_class_name_pretty": "Unknown",
+        "modifier_is": RadarrModifierEnum.NONE,
         "custom_format_score": 0,
     },
     {
@@ -559,8 +560,6 @@ if __name__ == "__main__":
         arr_type = "Radarr"
         arr_type_lower = arr_type.lower()
         modifier_is = source_class.get("modifier_is")
-        modifier_name = modifier_is.name if modifier_is else None
-        modifier_enum_value = modifier_is.value if modifier_is else None
 
         formatted_resolution_specification = ""
         if resolution:
@@ -569,7 +568,9 @@ if __name__ == "__main__":
             )
 
         formatted_is_modifier = ""
-        if modifier_is:
+        if modifier_is is not RadarrModifierEnum.NONE:
+            modifier_name = modifier_is.name
+            modifier_enum_value = modifier_is.value
             formatted_is_modifier = format_radarr_is_modifier.format(
                 modifier_name=modifier_name, modifier_enum_value=modifier_enum_value
             )
