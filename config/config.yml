@@ -14,6 +14,9 @@ sonarr:
 
     delete_old_custom_formats: &delete_old_custom_formats false
 
+    quality_definition:
+      type: anime
+
     quality_profiles:
       - name: Remux-2160p - Anime
         quality_sort: top
@@ -258,6 +261,9 @@ sonarr:
 
     delete_old_custom_formats: *delete_old_custom_formats
 
+    quality_definition:
+      type: series
+
     quality_profiles:
       - name: Remux-2160p
         quality_sort: top
@@ -445,7 +451,6 @@ radarr:
             enabled: false
             qualities:
               - Unknown
-
       - name: 1080p
         upgrade: *upgrade
         quality_sort: top
@@ -492,13 +497,11 @@ radarr:
             enabled: false
             qualities:
               - Unknown
-
       - name: Remux-2160p - Anime
         quality_sort: top
         score_set: anime-radarr
         upgrade: *upgrade
         qualities: *radarr-remux-2160p-qualities
-
       - name: 1080p - Anime
         upgrade: *upgrade
         quality_sort: top
