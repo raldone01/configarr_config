@@ -3,12 +3,12 @@
   "trash_scores": {
     "default": 250000
   },
-  "trash_description": "Matches releases that are Unknown. Radarr only.",
-  "name": "Source class: Unknown",
+  "trash_description": "Matches releases that are Bluray-2160p. Radarr only.",
+  "name": "Source class: Bluray-2160p",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "Unknown",
+      "name": "Bluray-2160p",
       "implementation": "SourceSpecification",
       "negate": false,
       "required": true,

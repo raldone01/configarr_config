@@ -504,12 +504,12 @@ if __name__ == "__main__":
         resolution = source_class.get("resolution")
         custom_format_score = source_class["custom_format_score"]
         source_class_enum = source_class["source_class"].name
+        class_enum_value = source_class["source_class"].value
 
         # if unknown skip
-        if source_class_enum == SonarrSourceEnum.UNKNOWN.name:
+        if class_enum_value == SonarrSourceEnum.UNKNOWN:
             continue
 
-        class_enum_value = source_class["source_class"].value
         arr_type = "Sonarr"
         arr_type_lower = arr_type.lower()
 
@@ -546,16 +546,16 @@ if __name__ == "__main__":
             f"Generating Radarr source class: {source_class['full_class_name']}"
         )
         full_class_name = source_class["full_class_name"]
-        full_class_name_pretty
+        full_class_name_pretty = source_class["full_class_name_pretty"]
         resolution = source_class.get("resolution")
         custom_format_score = source_class["custom_format_score"]
         source_class_enum = source_class["source_class"].name
+        class_enum_value = source_class["source_class"].value
 
         # if unknown skip
-        if source_class_enum == RadarrSourceEnum.UNKNOWN.name:
+        if class_enum_value == RadarrSourceEnum.UNKNOWN:
             continue
 
-        class_enum_value = source_class["source_class"].value
         arr_type = "Radarr"
         arr_type_lower = arr_type.lower()
         modifier_is = source_class.get("modifier_is")

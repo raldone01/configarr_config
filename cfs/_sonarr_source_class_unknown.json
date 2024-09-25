@@ -1,0 +1,20 @@
+{
+  "trash_id": "custom-sonarr-source-class-unknown",
+  "trash_scores": {
+    "default": 0
+  },
+  "trash_description": "Matches releases that are Unknown. Sonarr only.",
+  "name": "Source class: Unknown",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Unknown",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 0
+      }
+    }
+  ]
+}

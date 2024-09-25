@@ -3,12 +3,12 @@
   "trash_scores": {
     "default": 60000
   },
-  "trash_description": "Matches releases that are Unknown. Radarr only.",
-  "name": "Source class: Unknown",
+  "trash_description": "Matches releases that are HDTV-720p. Radarr only.",
+  "name": "Source class: HDTV-720p",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "Unknown",
+      "name": "HDTV-720p",
       "implementation": "SourceSpecification",
       "negate": false,
       "required": true,

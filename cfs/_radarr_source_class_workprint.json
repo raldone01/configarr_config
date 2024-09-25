@@ -3,12 +3,12 @@
   "trash_scores": {
     "default": -10000
   },
-  "trash_description": "Matches releases that are Unknown. Radarr only.",
-  "name": "Source class: Unknown",
+  "trash_description": "Matches releases that are WORKPRINT. Radarr only.",
+  "name": "Source class: WORKPRINT",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "Unknown",
+      "name": "WORKPRINT",
       "implementation": "SourceSpecification",
       "negate": false,
       "required": true,

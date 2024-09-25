@@ -3,12 +3,12 @@
   "trash_scores": {
     "default": -10000
   },
-  "trash_description": "Matches releases that are Unknown. Radarr only.",
-  "name": "Source class: Unknown",
+  "trash_description": "Matches releases that are DVDSCR. Radarr only.",
+  "name": "Source class: DVDSCR",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "Unknown",
+      "name": "DVDSCR",
       "implementation": "SourceSpecification",
       "negate": false,
       "required": true,

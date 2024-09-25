@@ -3,12 +3,12 @@
   "trash_scores": {
     "default": 20000
   },
-  "trash_description": "Matches releases that are Unknown. Radarr only.",
-  "name": "Source class: Unknown",
+  "trash_description": "Matches releases that are TELESYNC. Radarr only.",
+  "name": "Source class: TELESYNC",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "Unknown",
+      "name": "TELESYNC",
       "implementation": "SourceSpecification",
       "negate": false,
       "required": true,

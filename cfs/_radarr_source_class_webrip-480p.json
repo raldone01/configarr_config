@@ -3,12 +3,12 @@
   "trash_scores": {
     "default": 110000
   },
-  "trash_description": "Matches releases that are Unknown. Radarr only.",
-  "name": "Source class: Unknown",
+  "trash_description": "Matches releases that are WEBRip-480p. Radarr only.",
+  "name": "Source class: WEBRip-480p",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "Unknown",
+      "name": "WEBRip-480p",
       "implementation": "SourceSpecification",
       "negate": false,
       "required": true,

@@ -3,12 +3,12 @@
   "trash_scores": {
     "default": 30000
   },
-  "trash_description": "Matches releases that are Unknown. Radarr only.",
-  "name": "Source class: Unknown",
+  "trash_description": "Matches releases that are TELECINE. Radarr only.",
+  "name": "Source class: TELECINE",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "Unknown",
+      "name": "TELECINE",
       "implementation": "SourceSpecification",
       "negate": false,
       "required": true,

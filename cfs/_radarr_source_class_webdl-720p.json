@@ -3,12 +3,12 @@
   "trash_scores": {
     "default": 160000
   },
-  "trash_description": "Matches releases that are Unknown. Radarr only.",
-  "name": "Source class: Unknown",
+  "trash_description": "Matches releases that are WEBDL-720p. Radarr only.",
+  "name": "Source class: WEBDL-720p",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "Unknown",
+      "name": "WEBDL-720p",
       "implementation": "SourceSpecification",
       "negate": false,
       "required": true,
