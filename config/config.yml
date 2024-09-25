@@ -109,7 +109,7 @@ sonarr:
           - name: Remux-2160p - Anime
           - name: 1080p - Anime
       - trash_ids:
-          - custom-english-only # English+German > English Only > German Only
+          - custom-only-english # English+German > English Only > German Only
         assign_scores_to:
           - name: Remux-2160p - Anime
           - name: 1080p - Anime
@@ -283,7 +283,7 @@ sonarr:
           - name: Remux-2160p
           - name: 1080p
       - trash_ids:
-          - custom-english-only # English+German > English Only > German Only
+          - custom-only-english # English+German > English Only > German Only
         assign_scores_to:
           - name: Remux-2160p
           - name: 1080p
@@ -523,7 +523,7 @@ radarr:
           - name: Remux-2160p - Anime
           - name: 1080p - Anime
       - trash_ids:
-          - custom-english-only # English+German > English Only > German Only
+          - custom-only-english # English+German > English Only > German Only
         assign_scores_to:
           - name: Remux-2160p
           - name: 1080p
