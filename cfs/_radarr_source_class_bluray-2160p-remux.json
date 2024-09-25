@@ -1,7 +1,7 @@
 {
-  "trash_id": "custom-radarr-source-class-1080p-remux",
+  "trash_id": "custom-radarr-source-class-bluray-2160p-remux",
   "trash_scores": {
-    "default": 240000
+    "default": 260000
   },
   "trash_description": "Matches releases that are Unknown. Radarr only.",
   "name": "Source class: Unknown",
@@ -17,12 +17,12 @@
       }
     },
     {
-      "name": "1080p",
+      "name": "2160p",
       "implementation": "ResolutionSpecification",
       "negate": false,
       "required": true,
       "fields": {
-        "value": 1080
+        "value": 2160
       }
     },
     {
