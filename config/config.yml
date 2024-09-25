@@ -51,8 +51,6 @@ sonarr:
               - SDTV
           - name: Unknown
             enabled: false
-            qualities:
-              - Unknown
       - name: 1080p - Anime
         quality_sort: top
         score_set: anime-sonarr
@@ -86,8 +84,6 @@ sonarr:
               - SDTV
           - name: Unknown
             enabled: false
-            qualities:
-              - Unknown
 
     # Custom Formats: https://recyclarr.dev/wiki/yaml/config-reference/custom-formats/
     custom_formats:
@@ -450,8 +446,6 @@ radarr:
               - WORKPRINT
           - name: Unknown
             enabled: false
-            qualities:
-              - Unknown
       - name: 1080p
         upgrade: *upgrade
         quality_sort: top
@@ -496,8 +490,6 @@ radarr:
               - WORKPRINT
           - name: Unknown
             enabled: false
-            qualities:
-              - Unknown
       - name: Remux-2160p - Anime
         quality_sort: top
         score_set: anime-radarr
