@@ -695,7 +695,7 @@ radarr:
           - name: 1080p - Anime
 
       - trash_ids:
-          - 026d5aadd1a6b4e550b134cb6c72b3ca # Uncensored
+          - 064af5f084a0a24458cc8ecd3220f93f # Uncensored
         quality_profiles: # once configarr fix is in rename to assign_scores_to
           - name: Remux-2160p - Anime
             score: 101 # Adjust scoring as desired
