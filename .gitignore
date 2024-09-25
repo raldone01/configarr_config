@@ -1,2 +1,3 @@
 .venv/
 config/secrets.yml
+app_repos/
