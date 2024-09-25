@@ -5,6 +5,7 @@
   },
   "trash_description": "Matches releases that are English only and not German or German Dual Language.",
   "custom_source": "https://github.com/PCJones/radarr-sonarr-german-dual-language",
+  "license": "LICENSE-MIT-PCJones",
   "name": " Language: English Only",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
