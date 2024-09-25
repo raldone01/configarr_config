@@ -9,7 +9,7 @@ localConfigTemplatesPath: /app/templates
 sonarr:
   anime:
     # Set the URL/API Key to your actual instance
-    base_url: http://sonarr_anime:8989
+    base_url: http://sonarr-anime:8989
     api_key: !secret SONARR_ANIME_API_KEY
 
     delete_old_custom_formats: &delete_old_custom_formats false
@@ -253,7 +253,7 @@ sonarr:
 
   shows:
     # Set the URL/API Key to your actual instance
-    base_url: http://sonarr_shows:8989
+    base_url: http://sonarr-shows:8989
     api_key: !secret SONARR_SHOWS_API_KEY
 
     delete_old_custom_formats: *delete_old_custom_formats
