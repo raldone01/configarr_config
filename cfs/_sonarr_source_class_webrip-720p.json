@@ -3,12 +3,12 @@
   "trash_scores": {
     "default": 100000
   },
-  "trash_description": "Matches releases that are WebRip-720p. Sonarr only.",
-  "name": "Source class: WebRip-720p",
+  "trash_description": "Matches releases that are WEBRip-720p. Sonarr only.",
+  "name": "Source class: WEBRip-720p",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "WebRip-720p",
+      "name": "WEBRip-720p",
       "implementation": "SourceSpecification",
       "negate": false,
       "required": true,

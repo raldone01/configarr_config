@@ -3,12 +3,12 @@
   "trash_scores": {
     "default": 60000
   },
-  "trash_description": "Matches releases that are WebRip-480p. Sonarr only.",
-  "name": "Source class: WebRip-480p",
+  "trash_description": "Matches releases that are WEBRip-480p. Sonarr only.",
+  "name": "Source class: WEBRip-480p",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "WebRip-480p",
+      "name": "WEBRip-480p",
       "implementation": "SourceSpecification",
       "negate": false,
       "required": true,

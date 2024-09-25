@@ -35,15 +35,15 @@ sonarr:
               - Bluray-1080p
               - WEBDL-2160p
               - WEBDL-1080p
-              - WebRip-2160p
+              - WEBRip-2160p
               - Bluray-720p
-              - WebRip-1080p
+              - WEBRip-1080p
               - WEBDL-720p
-              - WebRip-720p
+              - WEBRip-720p
               - Bluray-480p
               - WEBDL-480p
               - DVD
-              - WebRip-480p
+              - WEBRip-480p
               - Raw-HD
               - HDTV-2160p
               - HDTV-1080p
@@ -68,15 +68,15 @@ sonarr:
               - Bluray-1080p
               - WEBDL-2160p
               - WEBDL-1080p
-              - WebRip-2160p
+              - WEBRip-2160p
               - Bluray-720p
-              - WebRip-1080p
+              - WEBRip-1080p
               - WEBDL-720p
-              - WebRip-720p
+              - WEBRip-720p
               - Bluray-480p
               - WEBDL-480p
               - DVD
-              - WebRip-480p
+              - WEBRip-480p
               - Raw-HD
               - HDTV-2160p
               - HDTV-1080p
@@ -418,16 +418,16 @@ radarr:
               - Bluray-1080p
               - WEBDL-2160p
               - WEBDL-1080p
-              - WebRip-2160p
+              - WEBRip-2160p
               - Bluray-720p
-              - WebRip-1080p
+              - WEBRip-1080p
               - Bluray-576p
               - WEBDL-720p
-              - WebRip-720p
+              - WEBRip-720p
               - Bluray-480p
               - WEBDL-480p
               - DVD
-              - WebRip-480p
+              - WEBRip-480p
               - DVD-R
               - Raw-HD
               - HDTV-2160p
@@ -462,15 +462,15 @@ radarr:
             qualities:
               - Bluray-1080p
               - WEBDL-1080p
-              - WebRip-2160p
+              - WEBRip-2160p
               - Bluray-720p
-              - WebRip-1080p
+              - WEBRip-1080p
               - Bluray-576p
               - WEBDL-720p
-              - WebRip-720p
+              - WEBRip-720p
               - Bluray-480p
               - WEBDL-480p
-              - WebRip-480p
+              - WEBRip-480p
               - DVD
               - DVD-R
               - Raw-HD

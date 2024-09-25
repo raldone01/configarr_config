@@ -86,7 +86,7 @@ sonarr_source_classes_to_generate = [
     {
         "source_class": SonarrSourceEnum.WEBRIP,
         "full_class_name": "webrip-2160p",
-        "full_class_name_pretty": "WebRip-2160p",
+        "full_class_name_pretty": "WEBRip-2160p",
         "resolution": 2160,
         "custom_format_score": 14,
     },
@@ -100,7 +100,7 @@ sonarr_source_classes_to_generate = [
     {
         "source_class": SonarrSourceEnum.WEBRIP,
         "full_class_name": "webrip-1080p",
-        "full_class_name_pretty": "WebRip-1080p",
+        "full_class_name_pretty": "WEBRip-1080p",
         "resolution": 1080,
         "custom_format_score": 12,
     },
@@ -114,7 +114,7 @@ sonarr_source_classes_to_generate = [
     {
         "source_class": SonarrSourceEnum.WEBRIP,
         "full_class_name": "webrip-720p",
-        "full_class_name_pretty": "WebRip-720p",
+        "full_class_name_pretty": "WEBRip-720p",
         "resolution": 720,
         "custom_format_score": 10,
     },
@@ -141,7 +141,7 @@ sonarr_source_classes_to_generate = [
     {
         "source_class": SonarrSourceEnum.WEBRIP,
         "full_class_name": "webrip-480p",
-        "full_class_name_pretty": "WebRip-480p",
+        "full_class_name_pretty": "WEBRip-480p",
         "resolution": 480,
         "custom_format_score": 6,
     },
@@ -248,7 +248,7 @@ radarr_source_classes_to_generate = [
     {
         "source_class": RadarrSourceEnum.WEBRIP,
         "full_class_name": "webrip-2160p",
-        "full_class_name_pretty": "WebRip-2160p",
+        "full_class_name_pretty": "WEBRip-2160p",
         "resolution": 2160,
         "modifier_is": RadarrModifierEnum.NONE,
         "custom_format_score": 20,
@@ -264,7 +264,7 @@ radarr_source_classes_to_generate = [
     {
         "source_class": RadarrSourceEnum.WEBRIP,
         "full_class_name": "webrip-1080p",
-        "full_class_name_pretty": "WebRip-1080p",
+        "full_class_name_pretty": "WEBRip-1080p",
         "resolution": 1080,
         "modifier_is": RadarrModifierEnum.NONE,
         "custom_format_score": 18,
@@ -288,7 +288,7 @@ radarr_source_classes_to_generate = [
     {
         "source_class": RadarrSourceEnum.WEBRIP,
         "full_class_name": "webrip-720p",
-        "full_class_name_pretty": "WebRip-720p",
+        "full_class_name_pretty": "WEBRip-720p",
         "resolution": 720,
         "modifier_is": RadarrModifierEnum.NONE,
         "custom_format_score": 15,
@@ -319,7 +319,7 @@ radarr_source_classes_to_generate = [
     {
         "source_class": RadarrSourceEnum.WEBRIP,
         "full_class_name": "webrip-480p",
-        "full_class_name_pretty": "WebRip-480p",
+        "full_class_name_pretty": "WEBRip-480p",
         "resolution": 480,
         "modifier_is": RadarrModifierEnum.NONE,
         "custom_format_score": 11,
