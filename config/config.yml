@@ -20,6 +20,8 @@ sonarr:
     quality_profiles:
       - name: Remux-2160p - Anime
         quality_sort: top
+        reset_unmatched_scores:
+          enabled: true
         min_format_score: 0
         score_set: anime-sonarr
         upgrade: &upgrade
@@ -54,6 +56,8 @@ sonarr:
             enabled: false
       - name: 1080p - Anime
         quality_sort: top
+        reset_unmatched_scores:
+          enabled: true
         min_format_score: 0
         score_set: anime-sonarr
         upgrade: *upgrade
@@ -265,11 +269,15 @@ sonarr:
     quality_profiles:
       - name: Remux-2160p
         quality_sort: top
+        reset_unmatched_scores:
+          enabled: true
         min_format_score: 0
         upgrade: *upgrade
         qualities: *sonarr-remux-2160p-qualities
       - name: 1080p
         quality_sort: top
+        reset_unmatched_scores:
+          enabled: true
         min_format_score: 0
         upgrade: *upgrade
         qualities: *sonarr-1080p-qualities
@@ -419,6 +427,8 @@ radarr:
     quality_profiles:
       - name: Remux-2160p
         quality_sort: top
+        reset_unmatched_scores:
+          enabled: true
         min_format_score: 0
         upgrade: *upgrade
         qualities: &radarr-remux-2160p-qualities
@@ -462,6 +472,8 @@ radarr:
       - name: 1080p
         upgrade: *upgrade
         quality_sort: top
+        reset_unmatched_scores:
+          enabled: true
         min_format_score: 0
         qualities: &radarr-1080p-qualities
           - name: UNWANTED_QUALITY_TOO_HIGH
@@ -506,6 +518,8 @@ radarr:
             enabled: false
       - name: Remux-2160p - Anime
         quality_sort: top
+        reset_unmatched_scores:
+          enabled: true
         min_format_score: 0
         score_set: anime-radarr
         upgrade: *upgrade
@@ -513,6 +527,8 @@ radarr:
       - name: 1080p - Anime
         upgrade: *upgrade
         quality_sort: top
+        reset_unmatched_scores:
+          enabled: true
         min_format_score: 0
         score_set: anime-radarr
         qualities: *radarr-1080p-qualities
