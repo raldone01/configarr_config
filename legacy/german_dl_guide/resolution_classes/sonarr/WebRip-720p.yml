@@ -1,0 +1,21 @@
+{
+  "name": "WebRip-720p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications":
+    [
+      {
+        "name": "WebRip",
+        "implementation": "SourceSpecification",
+        "negate": false,
+        "required": true,
+        "fields": { "value": 4 },
+      },
+      {
+        "name": "720p",
+        "implementation": "ResolutionSpecification",
+        "negate": false,
+        "required": true,
+        "fields": { "value": 720 },
+      },
+    ],
+}

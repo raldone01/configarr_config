@@ -1,0 +1,29 @@
+{
+  "trash_id": "custom-sonarr-source-class-bluray-2160p-remux",
+  "trash_scores": {
+    "default": 200000
+  },
+  "trash_description": "Matches releases that are Bluray-2160p Remux. Sonarr only.",
+  "name": "Source class: Bluray-2160p Remux",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Bluray-2160p Remux",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 7
+      }
+    },
+    {
+      "name": "2160p",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 2160
+      }
+    }
+  ]
+}

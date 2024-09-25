@@ -1,0 +1,29 @@
+{
+  "trash_id": "custom-sonarr-source-class-webdl-480p",
+  "trash_scores": {
+    "default": 80000
+  },
+  "trash_description": "Matches releases that are WEBDL-480p. Sonarr only.",
+  "name": "Source class: WEBDL-480p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "WEBDL-480p",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 3
+      }
+    },
+    {
+      "name": "480p",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 480
+      }
+    }
+  ]
+}

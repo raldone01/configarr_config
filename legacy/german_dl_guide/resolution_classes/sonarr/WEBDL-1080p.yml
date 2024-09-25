@@ -1,0 +1,21 @@
+{
+  "name": "WEBDL-1080p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications":
+    [
+      {
+        "name": "WEBDL",
+        "implementation": "SourceSpecification",
+        "negate": false,
+        "required": true,
+        "fields": { "value": 3 },
+      },
+      {
+        "name": "1080p",
+        "implementation": "ResolutionSpecification",
+        "negate": false,
+        "required": true,
+        "fields": { "value": 1080 },
+      },
+    ],
+}

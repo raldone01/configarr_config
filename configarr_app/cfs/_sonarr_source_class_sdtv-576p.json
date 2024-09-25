@@ -1,0 +1,29 @@
+{
+  "trash_id": "custom-sonarr-source-class-sdtv-576p",
+  "trash_scores": {
+    "default": 10000
+  },
+  "trash_description": "Matches releases that are SDTV-576p. Sonarr only.",
+  "name": "Source class: SDTV-576p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "SDTV-576p",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 1
+      }
+    },
+    {
+      "name": "576p",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 576
+      }
+    }
+  ]
+}

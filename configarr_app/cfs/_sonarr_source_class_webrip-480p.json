@@ -1,0 +1,29 @@
+{
+  "trash_id": "custom-sonarr-source-class-webrip-480p",
+  "trash_scores": {
+    "default": 60000
+  },
+  "trash_description": "Matches releases that are WebRip-480p. Sonarr only.",
+  "name": "Source class: WebRip-480p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "WebRip-480p",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 4
+      }
+    },
+    {
+      "name": "480p",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 480
+      }
+    }
+  ]
+}

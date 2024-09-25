@@ -1,0 +1,29 @@
+{
+  "trash_id": "custom-sonarr-source-class-bluray-1080p",
+  "trash_scores": {
+    "default": 170000
+  },
+  "trash_description": "Matches releases that are Bluray-1080p. Sonarr only.",
+  "name": "Source class: Bluray-1080p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Bluray-1080p",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 6
+      }
+    },
+    {
+      "name": "1080p",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 1080
+      }
+    }
+  ]
+}

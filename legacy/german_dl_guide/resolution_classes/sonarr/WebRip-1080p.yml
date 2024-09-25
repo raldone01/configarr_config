@@ -1,0 +1,21 @@
+{
+  "name": "WebRip-1080p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications":
+    [
+      {
+        "name": "WebRip",
+        "implementation": "SourceSpecification",
+        "negate": false,
+        "required": true,
+        "fields": { "value": 4 },
+      },
+      {
+        "name": "1080p",
+        "implementation": "ResolutionSpecification",
+        "negate": false,
+        "required": true,
+        "fields": { "value": 1080 },
+      },
+    ],
+}

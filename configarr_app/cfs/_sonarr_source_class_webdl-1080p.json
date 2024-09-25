@@ -1,0 +1,29 @@
+{
+  "trash_id": "custom-sonarr-source-class-webdl-1080p",
+  "trash_scores": {
+    "default": 150000
+  },
+  "trash_description": "Matches releases that are WEBDL-1080p. Sonarr only.",
+  "name": "Source class: WEBDL-1080p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "WEBDL-1080p",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 3
+      }
+    },
+    {
+      "name": "1080p",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 1080
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "trash_id": "custom-sonarr-source-television",
+  "trash_scores": {
+    "default": 100000
+  },
+  "trash_description": "Matches releases that are Television. Sonarr only.",
+  "name": "source-television",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Television",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 1
+      }
+    }
+  ]
+}

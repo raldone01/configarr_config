@@ -1,0 +1,29 @@
+{
+  "trash_id": "custom-sonarr-source-class-raw-hd",
+  "trash_scores": {
+    "default": 50000
+  },
+  "trash_description": "Matches releases that are Raw-HD. Sonarr only.",
+  "name": "Source class: Raw-HD",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Raw-HD",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 2
+      }
+    },
+    {
+      "name": "2160p",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 2160
+      }
+    }
+  ]
+}

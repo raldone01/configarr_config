@@ -1,0 +1,20 @@
+{
+  "trash_id": "custom-sonarr-source-televisionraw",
+  "trash_scores": {
+    "default": 0
+  },
+  "trash_description": "Matches releases that are TelevisionRaw. Sonarr only.",
+  "name": "source-televisionraw",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "TelevisionRaw",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 2
+      }
+    }
+  ]
+}

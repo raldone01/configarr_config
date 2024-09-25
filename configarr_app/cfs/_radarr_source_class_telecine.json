@@ -1,0 +1,29 @@
+{
+  "trash_id": "custom-radarr-source-class-telecine",
+  "trash_scores": {
+    "default": 30000
+  },
+  "trash_description": "Matches releases that are Unknown. Radarr only.",
+  "name": "Source class: Unknown",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Unknown",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 3
+      }
+    },
+    {
+      "name": "NONE",
+      "implementation": "QualityModifierSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 0
+      }
+    }
+  ]
+}

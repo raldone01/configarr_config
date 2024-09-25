@@ -1,0 +1,28 @@
+{
+  "name": "Bluray-2160p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications":
+    [
+      {
+        "name": "Bluray",
+        "implementation": "SourceSpecification",
+        "negate": false,
+        "required": true,
+        "fields": { "value": 6 },
+      },
+      {
+        "name": "2160p",
+        "implementation": "ResolutionSpecification",
+        "negate": false,
+        "required": true,
+        "fields": { "value": 2160 },
+      },
+      {
+        "name": "Not REMUX",
+        "implementation": "SourceSpecification",
+        "negate": true,
+        "required": true,
+        "fields": { "value": 7 },
+      },
+    ],
+}

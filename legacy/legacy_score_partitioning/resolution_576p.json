@@ -1,0 +1,19 @@
+{
+  "trash_id": "custom-resolution-576p",
+  "trash_scores": {
+    "default": 40000
+  },
+  "name": "resolution-576p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "576p",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 576
+      }
+    }
+  ]
+}

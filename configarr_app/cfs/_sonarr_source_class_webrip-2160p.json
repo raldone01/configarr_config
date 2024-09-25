@@ -1,0 +1,29 @@
+{
+  "trash_id": "custom-sonarr-source-class-webrip-2160p",
+  "trash_scores": {
+    "default": 140000
+  },
+  "trash_description": "Matches releases that are WebRip-2160p. Sonarr only.",
+  "name": "Source class: WebRip-2160p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "WebRip-2160p",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 4
+      }
+    },
+    {
+      "name": "2160p",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 2160
+      }
+    }
+  ]
+}

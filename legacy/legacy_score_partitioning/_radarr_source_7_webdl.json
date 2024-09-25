@@ -1,0 +1,20 @@
+{
+  "trash_id": "custom-radarr-source-webdl",
+  "trash_scores": {
+    "default": 700000
+  },
+  "trash_description": "Matches releases that are WebDl. Radarr only.",
+  "name": "source-webdl",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "WebDl",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 7
+      }
+    }
+  ]
+}

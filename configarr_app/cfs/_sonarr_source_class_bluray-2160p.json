@@ -1,0 +1,29 @@
+{
+  "trash_id": "custom-sonarr-source-class-bluray-2160p",
+  "trash_scores": {
+    "default": 190000
+  },
+  "trash_description": "Matches releases that are Bluray-2160p. Sonarr only.",
+  "name": "Source class: Bluray-2160p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Bluray-2160p",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 6
+      }
+    },
+    {
+      "name": "2160p",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 2160
+      }
+    }
+  ]
+}

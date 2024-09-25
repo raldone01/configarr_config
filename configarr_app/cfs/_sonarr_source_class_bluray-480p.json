@@ -1,0 +1,29 @@
+{
+  "trash_id": "custom-sonarr-source-class-bluray-480p",
+  "trash_scores": {
+    "default": 90000
+  },
+  "trash_description": "Matches releases that are Bluray-480p. Sonarr only.",
+  "name": "Source class: Bluray-480p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Bluray-480p",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 6
+      }
+    },
+    {
+      "name": "480p",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 480
+      }
+    }
+  ]
+}

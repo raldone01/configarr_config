@@ -1,0 +1,29 @@
+{
+  "trash_id": "custom-sonarr-source-class-webdl-2160p",
+  "trash_scores": {
+    "default": 160000
+  },
+  "trash_description": "Matches releases that are WEBDL-2160p. Sonarr only.",
+  "name": "Source class: WEBDL-2160p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "WEBDL-2160p",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 3
+      }
+    },
+    {
+      "name": "2160p",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 2160
+      }
+    }
+  ]
+}

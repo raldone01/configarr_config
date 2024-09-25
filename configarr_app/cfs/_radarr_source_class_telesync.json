@@ -1,0 +1,29 @@
+{
+  "trash_id": "custom-radarr-source-class-telesync",
+  "trash_scores": {
+    "default": 20000
+  },
+  "trash_description": "Matches releases that are Unknown. Radarr only.",
+  "name": "Source class: Unknown",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Unknown",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 2
+      }
+    },
+    {
+      "name": "NONE",
+      "implementation": "QualityModifierSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 0
+      }
+    }
+  ]
+}

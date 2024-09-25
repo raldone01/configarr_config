@@ -1,0 +1,29 @@
+{
+  "trash_id": "custom-sonarr-source-class-bluray-720p",
+  "trash_scores": {
+    "default": 130000
+  },
+  "trash_description": "Matches releases that are Bluray-720p. Sonarr only.",
+  "name": "Source class: Bluray-720p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Bluray-720p",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 6
+      }
+    },
+    {
+      "name": "720p",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 720
+      }
+    }
+  ]
+}

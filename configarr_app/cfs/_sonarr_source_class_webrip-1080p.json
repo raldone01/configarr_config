@@ -1,0 +1,29 @@
+{
+  "trash_id": "custom-sonarr-source-class-webrip-1080p",
+  "trash_scores": {
+    "default": 120000
+  },
+  "trash_description": "Matches releases that are WebRip-1080p. Sonarr only.",
+  "name": "Source class: WebRip-1080p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "WebRip-1080p",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 4
+      }
+    },
+    {
+      "name": "1080p",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 1080
+      }
+    }
+  ]
+}

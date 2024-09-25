@@ -1,0 +1,29 @@
+{
+  "trash_id": "custom-sonarr-source-class-hdtv-720p",
+  "trash_scores": {
+    "default": 20000
+  },
+  "trash_description": "Matches releases that are HDTV-720p. Sonarr only.",
+  "name": "Source class: HDTV-720p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "HDTV-720p",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 1
+      }
+    },
+    {
+      "name": "720p",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 720
+      }
+    }
+  ]
+}

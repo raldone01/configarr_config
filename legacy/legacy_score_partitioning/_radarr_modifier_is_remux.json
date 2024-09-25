@@ -1,0 +1,20 @@
+{
+  "trash_id": "custom-radarr-modifier-is-remux",
+  "trash_scores": {
+    "default": 20000
+  },
+  "trash_description": "Matches releases that are REMUX. Radarr only.",
+  "name": "Modifier: Is REMUX",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "REMUX",
+      "implementation": "QualityModifierSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 5
+      }
+    }
+  ]
+}

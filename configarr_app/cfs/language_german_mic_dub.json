@@ -1,0 +1,21 @@
+{
+  "trash_id": "custom-german-mic-dub",
+  "trash_scores": {
+    "default": -10000000
+  },
+  "trash_description": "Removes German Mic Dub releases",
+  "custom_source": "https://github.com/PCJones/radarr-sonarr-german-dual-language",
+  "name": "Langugage: MIC DUB",
+  "includeCustomFormatWhenRenaming": true,
+  "specifications": [
+    {
+      "name": "MD",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "((19|20|21)[0-9]{2}).*?(?<=^|[ .-])MD(?=[ .-]|$).*?(?<=^|[ .-])GERMAN(?=[ .-]|$)|((19|20|21)[0-9]{2}).*?(?<=^|[ .-])GERMAN(?=[ .-]|$).*?(?<=^|[ .-])MD(?=[ .-]|$)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "trash_id": "custom-sonarr-source-dvd",
+  "trash_scores": {
+    "default": 200000
+  },
+  "trash_description": "Matches releases that are DVD. Sonarr only.",
+  "name": "source-dvd",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "DVD",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "trash_id": "custom-radarr-source-class-webrip-480p",
+  "trash_scores": {
+    "default": 110000
+  },
+  "trash_description": "Matches releases that are Unknown. Radarr only.",
+  "name": "Source class: Unknown",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Unknown",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 8
+      }
+    },
+    {
+      "name": "480p",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 480
+      }
+    },
+    {
+      "name": "NONE",
+      "implementation": "QualityModifierSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Remux-1080p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications":
+    [
+      {
+        "name": "1080p",
+        "implementation": "ResolutionSpecification",
+        "negate": false,
+        "required": true,
+        "fields": { "value": 1080 },
+      },
+      {
+        "name": "REMUX",
+        "implementation": "QualityModifierSpecification",
+        "negate": false,
+        "required": true,
+        "fields": { "value": 5 },
+      },
+    ],
+}

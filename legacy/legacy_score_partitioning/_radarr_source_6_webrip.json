@@ -1,0 +1,20 @@
+{
+  "trash_id": "custom-radarr-source-webrip",
+  "trash_scores": {
+    "default": 600000
+  },
+  "trash_description": "Matches releases that are WebRip. Radarr only.",
+  "name": "source-webrip",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "WebRip",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 8
+      }
+    }
+  ]
+}

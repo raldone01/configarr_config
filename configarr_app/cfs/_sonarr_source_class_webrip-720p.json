@@ -1,0 +1,29 @@
+{
+  "trash_id": "custom-sonarr-source-class-webrip-720p",
+  "trash_scores": {
+    "default": 100000
+  },
+  "trash_description": "Matches releases that are WebRip-720p. Sonarr only.",
+  "name": "Source class: WebRip-720p",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "WebRip-720p",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 4
+      }
+    },
+    {
+      "name": "720p",
+      "implementation": "ResolutionSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 720
+      }
+    }
+  ]
+}
