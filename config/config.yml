@@ -143,9 +143,7 @@ sonarr:
           - name: Remux-2160p - Anime
       - trash_ids: &sonarr-source-class-bluray-1080p
           - custom-sonarr-source-class-bluray-1080p
-          - custom-sonarr-source-class-webdl-2160p
           - custom-sonarr-source-class-webdl-1080p
-          - custom-sonarr-source-class-webrip-2160p
           - custom-sonarr-source-class-bluray-720p
           - custom-sonarr-source-class-webrip-1080p
           - custom-sonarr-source-class-webdl-720p
@@ -155,7 +153,6 @@ sonarr:
           - custom-sonarr-source-class-dvd
           - custom-sonarr-source-class-webrip-480p
           - custom-sonarr-source-class-raw-hd
-          - custom-sonarr-source-class-hdtv-2160p
           - custom-sonarr-source-class-hdtv-1080p
           - custom-sonarr-source-class-hdtv-720p
           - custom-sonarr-source-class-sdtv-576p
@@ -295,6 +292,15 @@ sonarr:
           - name: Remux-2160p
           - name: 1080p
       # END GERMAN
+
+      # START QUALITY UPGRADES via CUSTOM FORMATS
+      - trash_ids: *sonarr-source-class-bluray-2160p-remux
+        quality_profiles: # once configarr fix is in rename to assign_scores_to
+          - name: Remux-2160p
+      - trash_ids: *sonarr-source-class-bluray-1080p
+        quality_profiles: # once configarr fix is in rename to assign_scores_to
+          - name: 1080p
+      # END QUALITY UPGRADES via CUSTOM FORMATS
 
       # https://trash-guides.info/Sonarr/sonarr-setup-quality-profiles/#web-1080p
       - trash_ids:
@@ -534,6 +540,72 @@ radarr:
           - name: Remux-2160p - Anime
           - name: 1080p - Anime
       # END GERMAN
+
+      # START QUALITY UPGRADES via CUSTOM FORMATS
+      - trash_ids:
+          - custom-radarr-source-class-bluray-2160p-remux
+          - custom-radarr-source-class-bluray-2160p
+          - custom-radarr-source-class-bluray-1080p-remux
+          - custom-radarr-source-class-bluray-1080p
+          - custom-radarr-source-class-webdl-2160p
+          - custom-radarr-source-class-webdl-1080p
+          - custom-radarr-source-class-webrip-2160p
+          - custom-radarr-source-class-bluray-720p
+          - custom-radarr-source-class-webrip-1080p
+          - custom-radarr-source-class-bluray-576p
+          - custom-radarr-source-class-webdl-720p
+          - custom-radarr-source-class-webrip-720p
+          - custom-radarr-source-class-bluray-480p
+          - custom-radarr-source-class-webdl-480p
+          - custom-radarr-source-class-dvd
+          - custom-radarr-source-class-webrip-480p
+          - custom-radarr-source-class-dvd-r
+          - custom-radarr-source-class-raw-hd
+          - custom-radarr-source-class-hdtv-2160p
+          - custom-radarr-source-class-hdtv-1080p
+          - custom-radarr-source-class-hdtv-720p
+          - custom-radarr-source-class-sdtv-576p
+          - custom-radarr-source-class-sdtv-480p
+          - custom-radarr-source-class-telecine
+          - custom-radarr-source-class-telesync
+          - custom-radarr-source-class-cam
+          - custom-radarr-source-class-dvdscr
+          - custom-radarr-source-class-regional
+          - custom-radarr-source-class-br-disk
+          - custom-radarr-source-class-workprint
+        quality_profiles: # once configarr fix is in rename to assign_scores_to
+          - name: Remux-2160p
+          - name: Remux-2160p - Anime
+      - trash_ids:
+          - custom-radarr-source-class-bluray-1080p
+          - custom-radarr-source-class-webdl-1080p
+          - custom-radarr-source-class-bluray-720p
+          - custom-radarr-source-class-webrip-1080p
+          - custom-radarr-source-class-bluray-576p
+          - custom-radarr-source-class-webdl-720p
+          - custom-radarr-source-class-webrip-720p
+          - custom-radarr-source-class-bluray-480p
+          - custom-radarr-source-class-webdl-480p
+          - custom-radarr-source-class-dvd
+          - custom-radarr-source-class-webrip-480p
+          - custom-radarr-source-class-dvd-r
+          - custom-radarr-source-class-raw-hd
+          - custom-radarr-source-class-hdtv-1080p
+          - custom-radarr-source-class-hdtv-720p
+          - custom-radarr-source-class-sdtv-576p
+          - custom-radarr-source-class-sdtv-480p
+          - custom-radarr-source-class-telecine
+          - custom-radarr-source-class-telesync
+          - custom-radarr-source-class-cam
+          - custom-radarr-source-class-dvdscr
+          - custom-radarr-source-class-regional
+          - custom-radarr-source-class-br-disk
+          - custom-radarr-source-class-workprint
+        quality_profiles: # once configarr fix is in rename to assign_scores_to
+          - name: 1080p
+          - name: 1080p - Anime
+      # END QUALITY UPGRADES via CUSTOM FORMATS
+
       # https://trash-guides.info/Radarr/radarr-setup-quality-profiles/#remux-web-1080p
       - trash_ids:
           # HQ Release Groups

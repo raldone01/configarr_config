@@ -199,7 +199,7 @@ sonarr_source_classes_to_generate = [
 radarr_source_classes_to_generate = [
     {
         "source_class": RadarrSourceEnum.BLURAY,
-        "full_class_name": "remux-2160p",
+        "full_class_name": "2160p-remux",
         "full_class_name_pretty": "Remux-2160p",
         "resolution": 2160,
         "modifier_is": RadarrModifierEnum.REMUX,
@@ -215,7 +215,7 @@ radarr_source_classes_to_generate = [
     },
     {
         "source_class": RadarrSourceEnum.BLURAY,
-        "full_class_name": "remux-1080p",
+        "full_class_name": "1080p-remux",
         "full_class_name_pretty": "Remux-1080p",
         "resolution": 1080,
         "modifier_is": RadarrModifierEnum.REMUX,
