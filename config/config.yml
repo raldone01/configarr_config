@@ -20,6 +20,7 @@ sonarr:
     quality_profiles:
       - name: Remux-2160p - Anime
         quality_sort: top
+        min_format_score: 0
         score_set: anime-sonarr
         upgrade: &upgrade
           allowed: true
@@ -53,6 +54,7 @@ sonarr:
             enabled: false
       - name: 1080p - Anime
         quality_sort: top
+        min_format_score: 0
         score_set: anime-sonarr
         upgrade: *upgrade
         qualities: &sonarr-1080p-qualities
@@ -264,10 +266,12 @@ sonarr:
     quality_profiles:
       - name: Remux-2160p
         quality_sort: top
+        min_format_score: 0
         upgrade: *upgrade
         qualities: *sonarr-remux-2160p-qualities
       - name: 1080p
         quality_sort: top
+        min_format_score: 0
         upgrade: *upgrade
         qualities: *sonarr-1080p-qualities
 
@@ -407,6 +411,7 @@ radarr:
     quality_profiles:
       - name: Remux-2160p
         quality_sort: top
+        min_format_score: 0
         upgrade: *upgrade
         qualities: &radarr-remux-2160p-qualities
           - name: SINGLE_STAGE_FOR_LANG
@@ -449,6 +454,7 @@ radarr:
       - name: 1080p
         upgrade: *upgrade
         quality_sort: top
+        min_format_score: 0
         qualities: &radarr-1080p-qualities
           - name: UNWANTED_QUALITY_TOO_HIGH
             enabled: false
@@ -492,12 +498,14 @@ radarr:
             enabled: false
       - name: Remux-2160p - Anime
         quality_sort: top
+        min_format_score: 0
         score_set: anime-radarr
         upgrade: *upgrade
         qualities: *radarr-remux-2160p-qualities
       - name: 1080p - Anime
         upgrade: *upgrade
         quality_sort: top
+        min_format_score: 0
         score_set: anime-radarr
         qualities: *radarr-1080p-qualities
 
