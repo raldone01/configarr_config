@@ -7,6 +7,7 @@ The enums are different.
 
 The resolution enum is the same.
 
+* +1000000 Anime Dual Audio
 * +2000000 English+German
 * +1000000 English only (pick this for english preference)
 * +1000000 German only (pick this for german preference)
