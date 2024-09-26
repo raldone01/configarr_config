@@ -218,7 +218,7 @@ sonarr:
       - trash_ids:
           - 15a05bc7c1a36e2b57fd628f8977e2fc # AV1
         quality_profiles: # once configarr fix is in rename to assign_scores_to
-          - name: Remux-1080p - Anime
+          - name: Remux-2160p - Anime
             score: -10000 # prevent AV1 encoded stuff
           - name: 1080p - Anime
             score: -10000 # prevent AV1 encoded stuff
@@ -227,7 +227,7 @@ sonarr:
       - trash_ids:
           - 026d5aadd1a6b4e550b134cb6c72b3ca # Uncensored
         quality_profiles: # once configarr fix is in rename to assign_scores_to
-          - name: Remux-1080p - Anime
+          - name: Remux-2160p - Anime
             score: 101 # Adjust scoring as desired
           - name: 1080p - Anime
             score: 101 # Adjust scoring as desired
@@ -235,7 +235,7 @@ sonarr:
       - trash_ids:
           - b2550eb333d27b75833e25b8c2557b38 # 10bit
         quality_profiles: # once configarr fix is in rename to assign_scores_to
-          - name: Remux-1080p - Anime
+          - name: Remux-2160p - Anime
             score: 0 # Adjust scoring as desired
           - name: 1080p - Anime
             score: 0 # Adjust scoring as desired
@@ -244,7 +244,7 @@ sonarr:
       - trash_ids:
           - 418f50b10f1907201b6cfdf881f467b7 # Anime Dual Audio
         quality_profiles: # once configarr fix is in rename to assign_scores_to
-          - name: Remux-1080p - Anime
+          - name: Remux-2160p - Anime
             score: 1000000 # Adjust scoring as desired
           - name: 1080p - Anime
             score: 1000000 # Adjust scoring as desired
@@ -252,7 +252,7 @@ sonarr:
       - trash_ids:
           - 9c14d194486c4014d422adc64092d794 # Dubs Only
         quality_profiles: # once configarr fix is in rename to assign_scores_to
-          - name: Remux-1080p - Anime
+          - name: Remux-2160p - Anime
             score: -1000
           - name: 1080p - Anime
             score: -1000
@@ -439,7 +439,7 @@ radarr:
             qualities:
               - Remux-2160p
               - Bluray-2160p
-              - Remux-1080p
+              - Remux-2160p
               - Bluray-1080p
               - WEBDL-2160p
               - WEBDL-1080p
@@ -484,7 +484,7 @@ radarr:
               - Remux-2160p
               - Bluray-2160p
               - WEBDL-2160p
-              - Remux-1080p
+              - Remux-2160p
           - name: SINGLE_STAGE_FOR_LANG
             enabled: true
             qualities:
