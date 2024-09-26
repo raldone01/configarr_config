@@ -1,7 +1,7 @@
 {
   "trash_id": "custom-only-german",
   "trash_scores": {
-    "default": 10000000
+    "default": 1000000
   },
   "trash_description": "Matches German only releases",
   "custom_source": "https://github.com/PCJones/radarr-sonarr-german-dual-language",

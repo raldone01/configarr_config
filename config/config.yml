@@ -111,7 +111,8 @@ sonarr:
       #    - name: Remux-2160p - Anime
       #    - name: 1080p - Anime
       #- trash_ids:
-      #    - custom-german-mic-dub # Avoid German Mic Dub
+      #    - custom-german-mic-dub          # Avoid German Mic Dub
+      #    - custom-language-not-eng-or-ger # Avoid non-english or german
       #  quality_profiles: # once configarr fix is in rename to assign_scores_to
       #    - name: Remux-2160p - Anime
       #    - name: 1080p - Anime
@@ -293,6 +294,7 @@ sonarr:
           - name: 1080p
       - trash_ids:
           - custom-german-mic-dub # Avoid German Mic Dub
+          - custom-language-not-eng-or-ger # Avoid non-english or german
         quality_profiles: # once configarr fix is in rename to assign_scores_to
           - name: Remux-2160p
           - name: 1080p
@@ -546,6 +548,7 @@ radarr:
           #- name: 1080p - Anime
       - trash_ids:
           - custom-german-mic-dub # Avoid German Mic Dub
+          - custom-language-not-eng-or-ger # Avoid non-english or german
         quality_profiles: # once configarr fix is in rename to assign_scores_to
           - name: Remux-2160p
           - name: 1080p
