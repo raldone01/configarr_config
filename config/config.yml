@@ -107,18 +107,18 @@ sonarr:
       #- trash_ids:
       #    - custom-german-dl # Boost German DL
       #    - custom-german-dl-2 # Boost German DL
-      #  quality_profiles: # once configarr fix is in rename to assign_scores_to
+      #  assign_scores_to:
       #    - name: Remux-2160p - Anime
       #    - name: 1080p - Anime
       #- trash_ids:
       #    - custom-german-mic-dub          # Avoid German Mic Dub
       #    - custom-language-not-eng-or-ger # Avoid non-english or german
-      #  quality_profiles: # once configarr fix is in rename to assign_scores_to
+      #  assign_scores_to:
       #    - name: Remux-2160p - Anime
       #    - name: 1080p - Anime
       #- trash_ids:
       #    - custom-only-english # English+German > English Only > German Only
-      #  quality_profiles: # once configarr fix is in rename to assign_scores_to
+      #  assign_scores_to:
       #    - name: Remux-2160p - Anime
       #    - name: 1080p - Anime
       # END GERMAN
@@ -146,7 +146,7 @@ sonarr:
           - custom-sonarr-source-class-hdtv-720p
           - custom-sonarr-source-class-sdtv-576p
           - custom-sonarr-source-class-sdtv-480p
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p - Anime
       - trash_ids: &sonarr-source-class-bluray-1080p
           - custom-sonarr-source-class-bluray-1080p
@@ -164,7 +164,7 @@ sonarr:
           - custom-sonarr-source-class-hdtv-720p
           - custom-sonarr-source-class-sdtv-576p
           - custom-sonarr-source-class-sdtv-480p
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: 1080p - Anime
       # END QUALITY UPGRADES via CUSTOM FORMATS
 
@@ -211,13 +211,13 @@ sonarr:
           - 7dd31f3dee6d2ef8eeaa156e23c3857e # B-Global
           - 4c67ff059210182b59cdd41697b8cb08 # Bilibili
           - 570b03b3145a25011bf073274a407259 # HIDIVE
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p - Anime
           - name: 1080p - Anime
 
       - trash_ids:
           - 15a05bc7c1a36e2b57fd628f8977e2fc # AV1
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p - Anime
             score: -10000 # prevent AV1 encoded stuff
           - name: 1080p - Anime
@@ -226,7 +226,7 @@ sonarr:
       # https://trash-guides.info/Sonarr/sonarr-setup-quality-profiles-anime/#dual-audio-scoring
       - trash_ids:
           - 026d5aadd1a6b4e550b134cb6c72b3ca # Uncensored
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p - Anime
             score: 101 # Adjust scoring as desired
           - name: 1080p - Anime
@@ -234,7 +234,7 @@ sonarr:
 
       - trash_ids:
           - b2550eb333d27b75833e25b8c2557b38 # 10bit
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p - Anime
             score: 0 # Adjust scoring as desired
           - name: 1080p - Anime
@@ -243,7 +243,7 @@ sonarr:
       # https://trash-guides.info/Sonarr/sonarr-setup-quality-profiles-anime/#dual-audio-scoring
       - trash_ids:
           - 418f50b10f1907201b6cfdf881f467b7 # Anime Dual Audio
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p - Anime
             score: 1000000 # Adjust scoring as desired
           - name: 1080p - Anime
@@ -251,7 +251,7 @@ sonarr:
 
       - trash_ids:
           - 9c14d194486c4014d422adc64092d794 # Dubs Only
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p - Anime
             score: -1000
           - name: 1080p - Anime
@@ -289,28 +289,28 @@ sonarr:
       - trash_ids:
           - custom-german-dl # Boost German DL
           - custom-german-dl-2 # Boost German DL
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p
           - name: 1080p
       - trash_ids:
           - custom-german-mic-dub # Avoid German Mic Dub
           - custom-language-not-eng-or-ger # Avoid non-english or german
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p
           - name: 1080p
       - trash_ids:
           - custom-only-english # English+German > English Only > German Only
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p
           - name: 1080p
       # END GERMAN
 
       # START QUALITY UPGRADES via CUSTOM FORMATS
       - trash_ids: *sonarr-source-class-bluray-2160p-remux
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p
       - trash_ids: *sonarr-source-class-bluray-1080p
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: 1080p
       # END QUALITY UPGRADES via CUSTOM FORMATS
 
@@ -352,13 +352,13 @@ sonarr:
           - 82d40da2bc6923f41e14394075dd4b03 # No-RlsGroup
           - e1a997ddb54e3ecbfe06341ad323c458 # Obfuscated
           - 06d66ab109d4d2eddb2794d21526d140 # Retags
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p
           - name: 1080p
 
       - trash_ids:
           - 1b3994c551cbb92a2c781af061f4ab44 # Scene
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p
             score: -5000
           - name: 1080p
@@ -367,14 +367,14 @@ sonarr:
       # We set the x265 negative score to 0 to allow x265 HD releases
       - trash_ids:
           - 47435ece6b99a0b477caf360e79ba0bb # x265 (HD)
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p
             score: 0 # allow x265 HD releases with HDR/DV
           - name: 1080p
             score: 0 # allow x265 HD releases with HDR/DV
       - trash_ids:
           - 9b64dff695c2115facf1b6ea59c9bd07 # x265 (no HDR/DV)
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p
             score: 0 # allow x265 HD releases with HDR/DV
           - name: 1080p
@@ -382,7 +382,7 @@ sonarr:
 
       - trash_ids:
           - 15a05bc7c1a36e2b57fd628f8977e2fc # AV1
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p
             score: -10000 # prevent AV1 encoded stuff
           - name: 1080p
@@ -410,7 +410,7 @@ sonarr:
           # General Streaming Services (UHD)
           - 43b3cf48cb385cd3eac608ee6bca7f09 # UHD Streaming Boost
           - d2d299244a92b8a52d4921ce3897a256 # UHD Streaming Cut
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p
 
 # Configuration specific to Radarr.
@@ -540,7 +540,7 @@ radarr:
       - trash_ids:
           - custom-german-dl # Boost German DL
           - custom-german-dl-2 # Boost German DL
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p
           - name: 1080p
           # Uncomment if german is wanted for anime
@@ -549,7 +549,7 @@ radarr:
       - trash_ids:
           - custom-german-mic-dub # Avoid German Mic Dub
           - custom-language-not-eng-or-ger # Avoid non-english or german
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p
           - name: 1080p
           # Uncomment if german is wanted for anime
@@ -557,7 +557,7 @@ radarr:
           #- name: 1080p - Anime
       - trash_ids:
           - custom-only-english # English+German > English Only > German Only
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p
           - name: 1080p
           # Uncomment if german is wanted for anime
@@ -597,7 +597,7 @@ radarr:
           - custom-radarr-source-class-regional
           - custom-radarr-source-class-br-disk
           - custom-radarr-source-class-workprint
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p
           - name: Remux-2160p - Anime
       - trash_ids:
@@ -625,7 +625,7 @@ radarr:
           - custom-radarr-source-class-regional
           - custom-radarr-source-class-br-disk
           - custom-radarr-source-class-workprint
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: 1080p
           - name: 1080p - Anime
       # END QUALITY UPGRADES via CUSTOM FORMATS
@@ -697,7 +697,7 @@ radarr:
           - 957d0f44b592285f26449575e8b1167e # Special Edition
           - eecf3a857724171f968a66cb5719e152 # IMAX
           - 9f6cbff8cfe4ebbc1bde14c7b7bec0de # IMAX Enhanced
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p
           - name: 1080p
           - name: Remux-2160p - Anime
@@ -706,7 +706,7 @@ radarr:
       # We set the x265 negative score to 0 to allow x265 HD releases
       - trash_ids:
           - dc98083864ea246d05a42df0d05f81cc # x265 (HD)
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p
             score: 0 # allow x265 HD releases with HDR/DV
           - name: 1080p
@@ -717,7 +717,7 @@ radarr:
             score: 0 # allow x265 HD releases with HDR/DV
       - trash_ids:
           - 839bea857ed2c0a8e084f3cbdbd65ecb # x265 (no HDR/DV)
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p
             score: 0 # allow x265 HD releases with HDR/DV
           - name: 1080p
@@ -729,7 +729,7 @@ radarr:
 
       - trash_ids:
           - f537cf427b64c38c8e36298f657e4828 # Scene
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p
             score: -5000
           - name: 1080p
@@ -756,7 +756,7 @@ radarr:
           - 923b6abef9b17f937fab56cfcf89e1f1 # DV (WEBDL) enable if not all devices support DV
           - b17886cb4158d9fea189859409975758 # HDR10+ Boost
           - 55a5b50cb416dea5a50c4955896217ab # DV HDR10+ Boost
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p
           - name: Remux-2160p - Anime
 
@@ -784,13 +784,13 @@ radarr:
           - 60f6d50cbd3cfc3e9a8c00e3a30c3114 # VRV
           - 9172b2f683f6223e3a1846427b417a3d # VOSTFR prevent wrong french stuff
           - cae4ca30163749b891686f95532519bd # AV1
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p - Anime
           - name: 1080p - Anime
 
       - trash_ids:
           - 064af5f084a0a24458cc8ecd3220f93f # Uncensored
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p - Anime
             score: 101 # Adjust scoring as desired
           - name: 1080p - Anime
@@ -798,7 +798,7 @@ radarr:
 
       - trash_ids:
           - a5d148168c4506b55cf53984107c396e # 10bit
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p - Anime
             score: 101 # Adjust scoring as desired
           - name: 1080p - Anime
@@ -806,7 +806,7 @@ radarr:
 
       - trash_ids:
           - 4a3b087eea2ce012fcc1ce319259a3be # Anime Dual Audio
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p - Anime
             score: 1000000 # Adjust scoring as desired
           - name: 1080p - Anime
@@ -814,7 +814,7 @@ radarr:
 
       - trash_ids:
           - b23eae459cc960816f2d6ba84af45055 # Dubs Only
-        quality_profiles: # once configarr fix is in rename to assign_scores_to
+        assign_scores_to:
           - name: Remux-2160p - Anime
             score: -1000
           - name: 1080p - Anime
